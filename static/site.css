@@ -1,0 +1,207 @@
+body {
+    background-color: #0F172A;
+    color: #E2E8F0;
+    font-family: 'Courier New', serif;
+    font-size: 17px;
+}
+
+main {
+    margin: 5% 20%;
+}
+
+#content {
+    width: 100%;
+}
+
+#left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+}
+
+#right {
+    float: right;
+    margin-left: 50%;
+    height: 100%;
+}
+
+#left h1, h3 {
+    margin: 0.6% 0;
+    padding: 0;
+}
+
+#left h3 {
+    color: rgba(226, 232, 240, 0.7);
+}
+
+#left h1 {
+    font-size: 50px;
+}
+
+#links {
+    position: fixed;
+    bottom: 15%;
+    width: 50%;
+}
+
+#links a {
+    text-decoration: none;
+    margin: 1%;
+}
+
+#menu {
+    margin-top: 10%;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu ul > li {
+    margin: 20px 5px; 
+    display: block;
+    width: 100%;
+}
+
+#menu ul > li > a {
+    text-decoration: none;
+    color: rgba(226, 232, 240, 0.5);
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.line {
+    width: 3%;
+    border-top: 2px solid rgba(226, 232, 240, 0.5);
+    position: absolute;
+    margin-top: 1.2%;
+    left: -1px;
+    height: 1px;
+    background-color: black;
+    transform: translateY(-50%);
+}
+
+.section_name {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#menu ul > li > a.active {
+    color: inherit;
+}
+
+#menu ul > li > a.active .line {
+    border-top: 2px solid rgba(226, 232, 240);
+    width: 5%;
+}
+
+#about {
+    color: rgba(226, 232, 240, 0.8);
+}
+
+#experience {
+    margin-top: 15%;
+}
+
+.job {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    word-wrap: break-word;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s background-color, ease-in-out 0.2s box-shadow;
+}
+
+.job:hover {
+    background-color: rgba(226, 232, 240, 0.03);
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.job h3 {
+    transition: ease-in-out 0.2s color;
+}
+
+.job:hover h3 {
+    color: #7bd1a6;
+}
+
+.years {
+    float: left;
+    width: 20%;
+}
+
+.description,
+.title {
+    float: right;
+    width: 75%;
+    margin-left: 5%;
+}
+
+.title p,
+.description p {
+    color: rgba(226, 232, 240, 0.7);
+}
+
+.years p {
+    margin: 0;
+    padding: 0;
+    color: rgba(226, 232, 240, 0.5);
+}
+
+.description h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.tech {
+    width: 75%;
+    float: right;
+}
+
+.tech span {
+    margin: 1% 1%;
+    padding: 1%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 15px;
+    background-color: #132B39;
+    color: #5EDDA2;
+}
+
+.job:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#projects {
+    margin-top: 15%;
+}
+
+.preview {
+    width: 20%;
+    display: inline-block;
+}
+
+.description > .tech {
+    width: 90%;
+    float: left;
+}
+
+.description > a > i {
+    padding-top: 20px;
+    
+} 
+
+.description > a > p {
+    width: 20%;
+    float: left;
+} 
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

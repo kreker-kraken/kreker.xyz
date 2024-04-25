@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edhard Sypa</title>
+    <link rel="stylesheet" href="static/site.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="https://kit.fontawesome.com/f1c43a80e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+
+        <div id="content">
+            <div id="left">
+                <h1>Edhard Sypa</h1>
+                <h3>Junior Python Developer</h3>
+                <h3>Junior DevOps Engineer</h3>
+
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="#about">
+                                <span class="line"></span>
+                                <span class="section_name">About</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#experience">
+                                <span class="line"></span>
+                                <span class="section_name">Experience</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#projects">
+                                <span class="line"></span>
+                                <span class="section_name">Projects</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="links">
+                    <a href="https://github.com/kreker783" target="_blank">
+                        <i class="fa-brands fa-github fa-2xl" style="color: #c0c0c0;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/edhard-sypa/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2xl" style="color: #c0c0c0;"></i>                    </a>
+                    <a href="mailto:sypaedhard@gmail.com">
+                        <i class="fa-solid fa-envelope fa-2xl" style="color: #c0c0c0;"></i>                    </a>
+                </div>
+            </div>
+
+
+
+            <div id="right">
+                <section id="about">
+                    <p>
+                        Hello and welcome! I'm thrilled to have you here. I'm currently navigating the dynamic world of IT infrastructure as a Support Engineer.
+                        While I've honed my skills in this role, my passion lies in the realms of Python development and DevOps engineering.
+                    </p>
+                    <p>
+                        In this portfolio, you'll find some of my projects, demonstrating my proficiency in various technologies,
+                        problem-solving abilities, and a glimpse into my journey of growth and development.
+                    </p>
+                    <p>
+                        When I'm not at the computer, I'm usually reading, hanging out with a dog and two cats, or walking in the forest.
+                    </p>
+                    <p>
+                        Thank you for taking the time to explore my portfolio. I'm excited about the possibilities and opportunities that lie ahead
+                    </p>
+                </section>
+
+                <section id="experience">
+                    <div class="job">
+                        <div class="years">
+                            <p>2022 - Present</p>
+                        </div>
+                        <div class="title">
+                            <h3>IT Infrastructure Support Engineer &#x2022; <small>Lyreco</small></h3>
+
+                            <p>
+                                Providing technical support to end-users, maintaining and troubleshooting
+                                IT systems, monitoring administration, server administration support, scripting
+                            </p>
+                        </div>
+                        <div class="tech">
+                            <span>Linux</span>
+                            <span>Windows Server</span>
+                            <span>Python Scripting</span>
+                            <span>Azure Identity</span>
+                            <span>Zabbix</span>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="years">
+                            <p>2021 - 2022</p>
+                        </div>
+                        <div class="title">
+                            <h3>IT Support Intern &#x2022; <small>Lyreco</small></h3>
+
+                            <p>
+                                Providing technical support to end-users, maintaining and troubleshooting
+                                IT systems, training and Onboarding new employees
+                            </p>
+                        </div>
+                        <div class="tech">
+                            <span>Linux</span>
+                            <span>O365 Admin</span>
+                            <span>Active Directory</span>
+                            <span>Horizon</span>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="years">
+                            <p>2020</p>
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Information Technology Intern &#x2022; <small>SECO/WARWICK GROUP</small>
+                            </h3>
+
+                            <p>
+                                Assistance in the IT department. Help with connecting the network, fixing computers,
+                                maintaining servers.
+                            </p>
+                        </div>
+                        <div class="tech">
+                            <span>Network</span>
+                            <span>Widnows</span>
+                            <span>Active Directory</span>
+                            <span>Printers</span>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <div class="job">
+                        <a href="https://github.com/kreker783/" target="_blank">
+                            <div class="preview">
+                                <img src="../../static/app/content/Home-Library.png" alt="Home Library" width="120" height="69">
+                            </div>
+                            <div class="description">
+                                <h3>Home Library</h3>
+                                <p>
+                                    A simple web application that allows users to keep track of their books.
+                                    Users can add, edit, and delete books, as well as search for books by title or author.
+                                </p>
+                                <div class="tech">
+                                    <span>Python</span>
+                                    <span>Django</span>
+                                    <span>HTML/CSS</span>
+                                    <span>PostgreSQL</span>
+                                    <span>Docker</span>
+                                    <span>GoogleBooksAPI</span>
+                                    <span>NYTimesAPI</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var links = document.querySelectorAll("#menu ul > li > a");
+        links.forEach(function(link) {
+            link.addEventListener("click", function(event) {
+                links.forEach(function(link) {
+                    link.classList.remove("active");
+                });
+                this.classList.add("active");
+            });
+        });
+    });
+    </script>
+
+</body>
+</html>
