@@ -25,6 +25,13 @@ main {
     height: 100%;
 }
 
+#left img {
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
 #left h1, h3 {
     margin: 0.6% 0;
     padding: 0;
